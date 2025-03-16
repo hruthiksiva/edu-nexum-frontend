@@ -8,10 +8,10 @@ const Home = () => {
   const testimonialImage = 'https://via.placeholder.com/100';
 
   return (
-    <div className="min-h-screen bg-gray-100 pt-20">
+    <div className="min-h-screen bg-gray-100 pt-7">
 
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-20 mt-16">
+      <section className="bg-blue-600 text-white py-20 mt-16 pt-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Welcome To EduNexum – Learn, Teach, And Grow!</h2>
           <p className="text-lg mb-6">

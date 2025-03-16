@@ -1,24 +1,29 @@
-import React from 'react'
+import { useState } from "react";
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
+  const [query, setQuery] = useState("");
+
+  const handleSearch = () => {
+    if (query.trim()) onSearch(query);
+  };
+
   return (
-    <div>
-  <div className="p-6">
-        <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold">ONLINE ENGLISH TUTORS & TEACHERS FOR PRIVATE LESSONS</h2>
-        <div>
-            <span>Filters applied: Status - 3 selected | Sender - 2 selected</span>
-            <button className="ml-2 text-blue-600">Clear all filters</button>
-        </div>
-        </div>
-        <input
+    <div className="flex items-center w-full max-w-lg mx-auto">
+      <input
         type="text"
-        placeholder="Type search"
-        className="w-full p-2 border rounded"
-        />
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        className="w-full p-2 border rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Search tutors by name, domain, or language..."
+      />
+      <button
+        onClick={handleSearch}
+        className="p-2 bg-blue-500 text-white rounded-r-md hover:bg-blue-600"
+      >
+        Search
+      </button>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default SearchBar
+export default SearchBar;
