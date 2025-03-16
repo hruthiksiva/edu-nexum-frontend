@@ -1,0 +1,54 @@
+
+{
+    "tutors": [
+      {
+        "teacher_id": "1",
+        "name": "Dr. John Smith",
+        "bio": "Dr. John Smith is a passionate educator with a Ph.D. in Mathematics. He specializes in making complex concepts simple and engaging for students of all levels.",
+        "phone": "+1-555-123-4567",
+        "years_of_experience": 10,
+        "classes_provided": ["Algebra", "Calculus", "Geometry", "SAT Math Prep"],
+        "availability": [
+          { "day": "Monday", "time": "2:00 PM - 5:00 PM" },
+          { "day": "Wednesday", "time": "3:00 PM - 6:00 PM" },
+          { "day": "Friday", "time": "1:00 PM - 4:00 PM" }
+        ],
+        "profile_photo": "https://via.placeholder.com/150", 
+        "classes_conducted": 150,
+        "reviews": [
+          { "student_name": "Alice Johnson", "rating": 5, "comment": "Dr. Smith made calculus so easy to understand! Highly recommend." },
+          { "student_name": "Bob Carter", "rating": 4, "comment": "Great tutor, very patient and knowledgeable." }
+        ],
+        "certifications": ["Ph.D. in Mathematics", "Certified SAT Instructor", "Teaching Excellence Award 2023"],
+        "youtube_link": "https://www.youtube.com/embed/dQw4w9WgXcQ", 
+        "social_links": {
+          "linkedin": "https://linkedin.com/in/johnsmith",
+          "twitter": "https://twitter.com/johnsmith",
+          "instagram": "https://instagram.com/johnsmith"
+        }
+      },
+      {
+        "teacher_id": "2",
+        "name": "Ms. Emily Davis",
+        "bio": "Ms. Emily Davis is an experienced English tutor with a focus on literature and writing skills. She helps students excel in their exams and creative writing.",
+        "phone": "+1-555-987-6543",
+        "years_of_experience": 7,
+        "classes_provided": ["English Literature", "Creative Writing", "IELTS Prep"],
+        "availability": [
+          { "day": "Tuesday", "time": "10:00 AM - 1:00 PM" },
+          { "day": "Thursday", "time": "2:00 PM - 5:00 PM" }
+        ],
+        "profile_photo": "https://via.placeholder.com/150", 
+        "classes_conducted": 90,
+        "reviews": [
+          { "student_name": "Sarah Lee", "rating": 5, "comment": "Amazing teacher! My writing skills improved so much." }
+        ],
+        "certifications": ["M.A. in English Literature", "Certified IELTS Trainer"],
+        "youtube_link": "https://www.youtube.com/embed/abc123xyz", 
+        "social_links": {
+          "linkedin": "https://linkedin.com/in/emilydavis",
+          "twitter": "https://twitter.com/emilydavis"
+        }
+      }
+    ]
+  }
